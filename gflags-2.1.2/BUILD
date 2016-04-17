@@ -1,6 +1,7 @@
 package(default_visibility = ["//visibility:public"])
 
-licenses(["restricted"]) # Google
+licenses(["notice"])
+exports_files(["COPYING.txt"])
 
 cc_library(
     name = 'gflags',

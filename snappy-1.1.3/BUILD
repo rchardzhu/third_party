@@ -1,6 +1,7 @@
 package(default_visibility = ["//visibility:public"])
 
-licenses(["restricted"]) # Google
+licenses(["notice"])
+exports_files(["COPYING"])
 
 cc_library(name = 'snappy',
      srcs = [

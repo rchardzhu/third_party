@@ -1,6 +1,7 @@
 package(default_visibility = ["//visibility:public"])
 
-licenses(["restricted"]) # Google
+licenses(["notice"])
+exports_files(["LICENSE"])
 
 cc_library(
     name = "gtest",
