@@ -1,0 +1,4 @@
+[submodule "protobuf"]
+	path = protobuf
+	url = https://github.com/google/protobuf/
+	branch = v3.0.2
